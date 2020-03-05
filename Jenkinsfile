@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'firm-camp-270218'
         CLUSTER_NAME = 'cluster-1'
         LOCATION = 'us-central1-a'
-        CREDENTIALS_ID = 'Demo k8s-jenkins'
+        CREDENTIALS_ID = 'gke'
     }
     stages {
         stage("Checkout code") {
