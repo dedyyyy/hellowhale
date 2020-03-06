@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         PROJECT_ID = 'firm-camp-270218'
-        CLUSTER_NAME = 'cluster-1'
+        CLUSTER_NAME = 'cluster-2'
         LOCATION = 'us-central1-a'
         CREDENTIALS_ID = 'gke'
     }
